@@ -1,6 +1,7 @@
 ---
 title: Iowa
 layout: single
+permalink: /gallery/iowa/
 gallery:
   - url: /assets/images/Gallery/Iowa/iowa-1.jpeg
     image_path: /assets/images/Gallery/Iowa/iowa-1.jpeg
