@@ -1,6 +1,6 @@
 ---
 title: flood
-layout: single
+layout: collection
 permalink: /gallery/flood/
 gallery-flood:
   - url: /assets/images/gallery/flood/flood-1.jpeg
@@ -30,4 +30,4 @@ gallery-flood:
 ---
 
 
-{% include gallery id="gallery-flood" caption="flood" %}
+{% include gallery id="gallery-flood" %}

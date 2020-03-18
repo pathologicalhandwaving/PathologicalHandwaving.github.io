@@ -86,4 +86,4 @@ gallery-iowa:
 ---
 
 
-{% include gallery id="caption="Iowa" %}
+{% include gallery id="gallery-iowa" %}

@@ -1,17 +1,7 @@
 ---
 title: Gallery Index
-layout: single
-permalink: /galleryindex/
+layout: collection
+entries_layout: list
+permalink: /gallery/
+collection: gallery
 ---
-
-
-## Flood
-
-[Flood]({% link /_pages/gallery-flood.md %})
-
-
-## Iowa
-
-[Flood]({% link /_pages/gallery-iowa.md %})
-
-
