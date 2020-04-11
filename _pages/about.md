@@ -4,9 +4,8 @@ layout: single
 permalink: /about/
 ---
 
-Hai
+I like to make stuff and fix things (I don't like painting walls).
 
+I write lots of bash scripts.
 
-This is me.
-
-Placeholder text because I have no idea what to write here.
+More content to be added later.
