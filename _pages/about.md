@@ -16,5 +16,4 @@ Handy when mistakes have been made. Have made many mistakes, have fixed more.
 
 
 > "There isn't a way things are and a way they should be. There's just what happens and what we do."
-
-Terry Pratchett
+> ~ Terry Pratchett
