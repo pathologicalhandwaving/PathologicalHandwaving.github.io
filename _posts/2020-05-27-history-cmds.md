@@ -8,7 +8,8 @@ tags:
   - shell
 ---
 
-There are some situtations in which one might want to hide their shell history. Most of the time when I am asked to work on someone else's box I leave the bash history intact, (its polite). But sometimes you just need a clean or amended record, there are many ways to accomplish this. 
+There are some situtations in which one might want to hide their shell history. Most of the time when I am asked to work on someone else's box I leave the bash history intact, (its polite). But sometimes you just need a clean or amended record, here are a few simple ways to accomplish hiding your shell history.
+
 
 ## During a Session
 
@@ -28,6 +29,14 @@ To specify the history file location put the following in your `.bashrc`:
 export HISTFILE=/path/to/file
 ```
 
+
+## `HISTTIMEFORMAT` Variable
+
+Specify a timestamp format for logged commands.
+
+  ``` bash
+  export HISTTIMEFORMAT="%Y-%m-%dT%H:%M:%S"
+  ```
 
 ## `HISTCONTROL` Variable
 
