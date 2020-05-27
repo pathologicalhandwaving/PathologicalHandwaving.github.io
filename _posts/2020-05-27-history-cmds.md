@@ -37,21 +37,21 @@ The `HISTCONTROL` variable can be set in your `.bashrc` file. Flags:
   * `ignorespace` Ignore commands prefixed with a space.
   * `ignoreboth` Ignore duplicates and space prefixed commands.
   
-  
   ``` bash
   export HISTCONTROL=ignoreboth
   ```
   
   
-  ## `HISTIGNORE` Variable
+## `HISTIGNORE` Variable
   
   You can also ignore certain commands altogether:
   
   ``` bash
   export HISTIGNORE="kill*:ifconfig*:nmap*"
   ```
-  
-  ## `HISTFILESIZE` Variable
+
+
+## `HISTFILESIZE` Variable
   
   Default size of the `HISTFILESIZE` variable is 500 commands.
   
@@ -59,29 +59,29 @@ The `HISTCONTROL` variable can be set in your `.bashrc` file. Flags:
   export HISTFILESIZE=0
   ```
   
-  
-  ## Send to `/dev/null`
+
+## Send to `/dev/null`
   
   ``` bash
   ln -sf /dev/null ~/.bash_history
   ```
   
-  
-  ## Overwrite `auth.log`
+
+## Overwrite `auth.log`
   
   ``` bash
   echo "" > /var/log/auth.log
   ```
-  
-  
- ## Kill Current Session
+
+
+## Kill Current Session
  
  ``` bash
  kill -9 $$
  ```
- 
- 
- ## Check Your History
+
+
+## Check Your History
  
  ``` bash
  history|more
