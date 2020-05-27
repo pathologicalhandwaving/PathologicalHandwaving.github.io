@@ -6,8 +6,6 @@ main:
     url: /contact/
   - title: "Disclaimer"
     url: /disclaimer/
-  - title: "Gallery"
-    url: /galleryindex/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
