@@ -1,5 +1,5 @@
 ---
-title: Hiding Bash History
+title: Hiding Shell History
 date: 2020-05-27
 tags:
   - bash
@@ -7,7 +7,7 @@ tags:
   - tracking
 ---
 
-There are some situtations in whichasu might want to hide your bash shell history. Most of the time when I am asked to work on someone else's box I leave the bash history intact, it just seems polite. But sometimes you just need a clean record, there are many ways to accomplish this. 
+There are some situtations in which one might want to hide their shell history. Most of the time when I am asked to work on someone else's box I leave the bash history intact, (its polite). But sometimes you just need a clean or amended record, there are many ways to accomplish this. 
 
 ## During a Session
 
