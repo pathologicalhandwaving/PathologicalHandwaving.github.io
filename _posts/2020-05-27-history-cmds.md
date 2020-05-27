@@ -17,9 +17,7 @@ There are some situtations in which one might want to hide their shell history. 
   * `set history -r` Reads the history file, setting it back to how it was when you logged in. Edit the history file, issue command, close shell.
 
 
-## Useful Variables
-
-### `HISTFILE` Variable
+## `HISTFILE` Variable
 
 The `HISTFILE` variable controls where the history file is stored, running `unset HISTFILE` will clear this location from memory so nothing will be stored.
 
@@ -30,7 +28,7 @@ export HISTFILE=/path/to/file
 ```
 
 
-### `HISTCONTROL` Variable
+## `HISTCONTROL` Variable
 
 The `HISTCONTROL` variable can be set in your `.bashrc` file. Flags:
 
@@ -44,7 +42,7 @@ The `HISTCONTROL` variable can be set in your `.bashrc` file. Flags:
   ```
   
   
-  ### `HISTIGNORE` Variable
+  ## `HISTIGNORE` Variable
   
   You can also ignore certain commands altogether:
   
@@ -52,10 +50,9 @@ The `HISTCONTROL` variable can be set in your `.bashrc` file. Flags:
   export HISTIGNORE="kill*:ifconfig*:nmap*"
   ```
   
-  ### `HISTFILESIZE` Variable
+  ## `HISTFILESIZE` Variable
   
   Default size of the `HISTFILESIZE` variable is 500 commands.
-  
   
   ``` bash
   export HISTFILESIZE=0
@@ -64,14 +61,12 @@ The `HISTCONTROL` variable can be set in your `.bashrc` file. Flags:
   
   ## Send to `/dev/null`
   
-  
   ``` bash
   ln -sf /dev/null ~/.bash_history
   ```
   
   
   ## Overwrite `auth.log`
-  
   
   ``` bash
   echo "" > /var/log/auth.log
@@ -80,14 +75,12 @@ The `HISTCONTROL` variable can be set in your `.bashrc` file. Flags:
   
  ## Kill Current Session
  
- 
  ``` bash
  kill -9 $$
  ```
  
  
  ## Check Your History
- 
  
  ``` bash
  history|more
