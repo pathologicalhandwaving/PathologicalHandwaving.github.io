@@ -1,6 +1,7 @@
 ---
 title: Managing Dotffiles with a Git Bare Repo
 date: 2020-05-30
+layout: posts
 tags:
   - git
   - bare
