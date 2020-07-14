@@ -1,6 +1,5 @@
 ---
 title: Drunken Philosophers' Song Lyrics
-layout: posts
 date: 2020-07-14
 tags:
     - lyrics
