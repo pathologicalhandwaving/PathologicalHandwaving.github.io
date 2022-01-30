@@ -15,13 +15,13 @@ I have been using a git bare repository to manage my dot files for several years
 git init --bare $HOME/.cfg
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 config config --local status.showUntrackedFiles no
-echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.zshrc
+echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.bashrc
 echo ".cfg" >> .gitignore
 cd .cfg
 git remote add origin <url>
 git remote -v
-git add .zshrc
-git commit -m "added .zshrc"
+git add .bashrc
+git commit -m "added .bashrc"
 git push -u origin master
 ```
 
