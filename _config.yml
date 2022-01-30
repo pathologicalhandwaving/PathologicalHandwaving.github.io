@@ -94,8 +94,8 @@ analytics:
 # Site Author
 author:
   name             : "Em"
-  avatar           : "/assets/images/dee.gif" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Knowing how bad you could be is a great encouragement for being good."
+  avatar           : "/assets/images/unmary.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : ""
   location         : "Any number of places..."
   email            :
   links:
